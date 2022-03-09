@@ -1,0 +1,15 @@
+
+@import url('./mobile.css');
+
+:root {
+    --red: #b5121b;
+    --white : #fff;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboty', sans-serif;
+}
+    

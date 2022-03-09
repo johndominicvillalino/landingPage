@@ -1,0 +1,15 @@
+
+@import url('./root.css');
+
+.banner {
+    background: var(--red);
+    color: var(--white);
+}
+
+.banner > * {
+    text-align: center;
+    padding: .5rem;
+    font-weight: 300;
+    font-size: .80rem;
+    letter-spacing: .80px;
+}
