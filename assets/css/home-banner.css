@@ -1,0 +1,101 @@
+
+@font-face {
+    font-family: 'manussmooth';
+    src:  url('../fonts/Manus_Smooth_TRIAL.ttf') format('ttf');
+    src:  url('../fonts/Manus_Smooth_TRIAL.otf') format('otf');
+    src: url('../fonts/ManusSmooth.eot') format('eot');
+    src: url('../fonts/ManusSmooth.woff') format('woff');
+    src: url('../fonts/ManusSmooth.woff2') format('woff2');
+          
+  }
+
+.section {
+    width: 100%;
+    height: 600px;
+    background-image: url('../media/images/banner-img-background.jpg');
+    background-position: right center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.banner-section {
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.banner-award-info {
+
+    display: flex;
+    max-width: 800px;
+    width: 100%;
+    flex-direction: column;
+    background-color: rgba(0,0,0,0.8);
+    color: #fff;
+    margin-left: 50px;
+    padding: 0px 20px;
+    border-radius: 10px;
+    justify-items: center;
+}
+
+.home-banner {
+    margin: 20px 0;
+}
+
+.banner-award-info *  {
+    margin: 10px 0; 
+}
+
+.banner-award-info h3 {
+    font-family: 'manussmooth',sans-serif;
+    font-size: 30px;
+    color: #b5121b;
+    font-weight: 400;
+    font-style: Normal;
+}
+
+.banner-award-info h2 {
+    font-size: 60px;
+    font-family: Inter, sans-serif;
+    color: #ffffff;
+    font-weight: 600;
+    font-style: Normal;
+}
+
+.banner-award-info p {
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    color: #ffffff;
+}
+
+.learnMore-banner, .btn-send  {
+    padding: 10px;
+    letter-spacing: 1.2px;
+    border-radius: 20px;
+    color: #fff;
+    background-color: #b5121b;
+    border: 0;
+    width: 25%;
+}
+
+.learnMore-banner:hover, .contact-us-btn:hover,.btn-send:hover  {
+
+    cursor: pointer;
+    border: 1px solid #fff;
+    background-color: black;
+
+}
+
+.contact-us-btn {
+    position: fixed;
+    right:-25px;
+    top: 50%;
+    transform: rotate(-90deg);
+    padding: 10px;
+    border: 0;
+    color: #fff;
+    background-color: #b5121b;
+    cursor: pointer;
+
+}

@@ -1,8 +1,9 @@
 
 @import url('./root.css');
-
 @import url('./UI/search.css');
-
+@import url('./UI/nav.css');
+@import url('./home-banner.css');
+@import url('./UI/modal.css');
 
 .banner {
     background: var(--red);

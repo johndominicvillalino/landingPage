@@ -1,0 +1,35 @@
+
+.nav-container {
+    
+    padding: 5px 20px;
+    border-bottom: 2px solid rgba(6, 14, 37, 0.31);
+}
+
+.nav-container ul {
+
+    display: flex;
+   justify-content: center;
+
+   gap: 30px;
+  flex-grow: 5;
+    
+}
+
+li {
+    list-style-type: none;
+    font-size: 12px;
+    font-weight: 600;
+    display: flex;
+}
+
+.arrowdown {
+    display: inline-block;
+    width: 11px;
+    height: 11px;
+    background-image: url('../../media/images/arrow-down-svgrepo-com.svg');
+    background-position: center;
+    background-size: cover;
+    margin-left: 5px;
+    cursor: pointer;
+
+}

@@ -44,9 +44,19 @@
         filter: invert(27%) sepia(51%) saturate(2878%) hue-rotate(346deg) brightness(104%) contrast(97%);
     }
 
-  
+    .nav-container {
+        display: none;
+    }
 
-    
+    .home-banner{
+        margin-top:5px;
+    }
 
   
+}
+
+@media (max-width: 926px) {
+    .nav-container * {
+        font-size: 1vw;
+    }
 }
