@@ -4,3 +4,49 @@
         display:none;
     }
 }
+@media (max-width: 768px) {
+
+
+    header {
+        border: 0 !important;
+    }
+
+     .mobile-search-container {
+        position: relative;
+        display: flex !important;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .mobile-search-container div {
+        margin: 0 10px;
+    }
+
+     .search-input {
+         max-width: 286px !important;
+        width:  100%;
+    }
+
+    .search-icon-mobile {
+        margin-bottom: 2px;
+        margin-right: 10px;
+        height:25px !important;
+    }
+
+    .menu-icon {
+        width: 30px;
+        height: 30px;
+        background-image: url('../media/images/menu-svgrepo-com.svg');
+    }
+
+    .menu-icon:hover {
+        cursor: pointer;
+        filter: invert(27%) sepia(51%) saturate(2878%) hue-rotate(346deg) brightness(104%) contrast(97%);
+    }
+
+  
+
+    
+
+  
+}
