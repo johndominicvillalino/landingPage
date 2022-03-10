@@ -1,0 +1,15 @@
+
+
+@media (max-width: 768px) {
+
+    .head {
+    justify-content: center !important;
+    }
+
+    .head-right {
+        display:none !important;
+    }
+    
+    
+}
+

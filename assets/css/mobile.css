@@ -4,4 +4,15 @@
         .banner {
         padding: 1rem;
         }
-}
+    }
+
+    @media (max-width: 453px) {
+
+        .head img {
+            width: 150px;
+        }
+
+    } 
+
+
+   

@@ -1,6 +1,9 @@
 
 @import url('./root.css');
 
+@import url('./UI/search.css');
+
+
 .banner {
     background: var(--red);
     color: var(--white);
@@ -13,3 +16,90 @@
     font-size: .80rem;
     letter-spacing: .80px;
 }
+
+#respond-rely-svg {
+    width: 400px;
+}
+
+.head {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+ 
+}
+
+header {
+    border-bottom: 2px solid rgba(6, 14, 37, 0.31);
+}
+
+.head-left {
+    max-width: 568px;
+    width:100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+
+.aussie-business {
+    display: flex;
+    flex-direction: column;
+    max-width: 200px;
+    width: 100%;
+  
+}
+
+.call-today {
+
+    margin-top: 10px;
+    font-size: 12px;
+    font-weight: 600;
+    text-align: center;
+    display: none;
+}
+
+.call-today a, #call-right a {
+    color: var(--red);
+    text-decoration: none;
+    
+}
+
+.head-right {
+    display: flex;
+}
+
+.head-right-inner {
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+    margin:0 10px;
+}
+
+#call-right {
+    font-size: .80em;
+    margin-bottom: 10px;
+    font-weight: 600;
+
+}
+
+
+
+.login-svg {
+    display:block;
+    width: 30px;
+    height: 30px;
+
+    background-image: url('../media/images/login-svgrepo-com.svg');
+    background-position: center;
+    background-repeat: no-repeat;
+    
+}
+
+.login-svg:hover {
+    
+    cursor: pointer;
+    filter: invert(27%) sepia(51%) saturate(2878%) hue-rotate(346deg) brightness(104%) contrast(97%);
+  
+}
+
